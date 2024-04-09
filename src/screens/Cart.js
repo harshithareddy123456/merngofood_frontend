@@ -21,9 +21,10 @@ export default function Cart() {
   const handleCheckOut = async () => {
     let userEmail = localStorage.getItem("useremail");
     //console.log(userEmail);
+    const mainurl = "https://merngofood-backend-1.onrender.com";
     // console.log(data,localStorage.getItem("userEmail"),new Date())
     let response = await fetch(
-      "https://merngofood-backend-1.onrender.com/api/orderData",
+      "https://gofoodbackend-three.vercel.app/api/orderData",
       {
         // credentials: 'include',
         // Origin:"http://localhost:3000/login",

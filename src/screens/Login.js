@@ -13,7 +13,7 @@ export default function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const response = await fetch(
-      "https://merngofood-backend-1.onrender.com/api/loginuser",
+      "https://gofoodbackend-three.vercel.app/api/loginuser",
       {
         method: "POST",
         headers: {

@@ -15,7 +15,7 @@ export default function Home() {
 
   const loadData = async () => {
     let response = await fetch(
-      "https://merngofood-backend-1.onrender.com/api/foodData",
+      "https://gofoodbackend-three.vercel.app/api/foodData",
       {
         method: "POST",
         headers: {
