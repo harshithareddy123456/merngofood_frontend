@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 export default function Myorder() {
   const [orderData, setOrderdata] = useState({});
   const fetchMyOrder = async () => {
-    await fetch("https://gofoodbackend-three.vercel.app/api/myOrderdata", {
+    await fetch("https://merngofood-backend-1.onrender.com/api/myOrderdata", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
